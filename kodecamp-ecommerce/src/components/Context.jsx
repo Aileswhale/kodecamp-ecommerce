@@ -1,3 +1,4 @@
+
 import { createContext, useContext, useState, useEffect } from "react";
 import axios from "axios";
 
@@ -10,6 +11,7 @@ export const Context = ({ children }) => {
   const [total, setTotal] = useState(0);
 
   const url = "https://api.escuelajs.co/api/v1/products";
+  console.log(url);
 
   useEffect(() => {
     totalFunc();
