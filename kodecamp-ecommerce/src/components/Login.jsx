@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Login = () => {
       return (
         <div className="h-[100vh]">
-          <div className="flex flex-col w-[70%] m-auto mt-[10%] ">
+          <div className="flex flex-col w-[70%] lg:w-[50%] m-auto mt-[10%] ">
             <div className="font-bold text-[2rem] text-center my-5">Login</div>
 
             <div>
@@ -44,7 +44,6 @@ const Login = () => {
               <p>
                 Don't have an account?
                 <Link to="Signup">
-                  
                   <span className="text-red-500"> Sign Up</span>
                 </Link>
               </p>

@@ -6,15 +6,16 @@ const Signup = () => {
 
   return (
     <div className="h-[100vh]">
-      <div className="flex flex-col w-[70%] m-auto mt-[10%] ">
-              <div className="font-bold text-[2rem] text-center my-5">Sign Up</div>
+      <div className="flex flex-col w-[70%] lg:w-[50%] m-auto mt-[10%] ">
+        <div className="font-bold text-[2rem] text-center my-5">Sign Up</div>
 
         <div>
           <label className="font-bold "> Full Name </label> <br />
           <input
             className="border border-black rounded px-[7px] py-[5px] outline-none w-[100%] my-[10px]"
             type="text"
-            placeholder="input your full name" required
+            placeholder="input your full name"
+            required
           />
         </div>
         <div>
