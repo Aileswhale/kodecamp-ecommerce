@@ -19,11 +19,20 @@ const NavBar = () => {
           </Link>
 
           <div className=" flex items-center gap-[1rem]">
-            <div>
-              <button className=" outline-none px-[10px] py-[5px] lg:w-[7rem] lg:h-[3.63rem] border-[1px] border-solid border-[#7a7a7a] rounded-[5px] lg:rounded-[4.7rem] text-[#515151] text-[12px] lg:text-[1rem] bg-white-500 cursor-pointer active:bg-[#f3f3f3]">
-                Login
-              </button>
-            </div>
+            <Link to="Login">
+              <div>
+                <button className=" outline-none px-[10px] py-[5px] lg:w-[7rem] lg:h-[3.63rem] border-[1px] border-solid border-[#7a7a7a] rounded-[5px] lg:rounded-[4.7rem] text-[#515151] text-[12px] lg:text-[1rem] bg-white-500 cursor-pointer active:bg-[#f3f3f3]">
+                  Login
+                </button>
+              </div>
+            </Link>
+            <Link to="Signup">
+              <div>
+                <button className=" outline-none px-[10px] py-[5px] lg:w-[7rem] lg:h-[3.63rem] border-[1px] border-solid border-[#7a7a7a] rounded-[5px] lg:rounded-[4.7rem] text-[#515151] text-[12px] lg:text-[1rem] bg-white-500 cursor-pointer active:bg-[#f3f3f3]">
+                  Sign Up
+                </button>
+              </div>
+            </Link>
 
             <div>
               <button className=" outline-none px-[10px] py-[5px]  lg:w-[7rem] lg:h-[3.63rem] border-[1px] border-solid border-[#7a7a7a] rounded-[5px] lg:rounded-[4.7rem] text-[#515151] text-[12px] lg:text-[1rem] bg-white-500 cursor-pointer active:bg-[#f3f3f3]">

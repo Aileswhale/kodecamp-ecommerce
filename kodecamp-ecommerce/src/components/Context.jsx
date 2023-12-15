@@ -15,7 +15,7 @@ export const Context = ({ children }) => {
 
   useEffect(() => {
     totalFunc();
-  }, [cart]);
+  }, [cart]); 
 
   useEffect(() => {
     const fetchProducts = async () => {
